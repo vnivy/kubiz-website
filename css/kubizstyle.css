@@ -1,0 +1,284 @@
+.blue {
+  background-color: #2e3641;
+  color: white;
+}
+.consultants {
+  position: relative;
+  width: 50%;
+}
+.hovericon {
+  color: white;
+}
+.card-hover {
+  background-color: #03c7ac;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text:hover {
+  display: none;
+}
+.text:hover + .middle {
+  display: block;
+}
+.middle {
+  transition: 0.1s ease;
+  width: 100%;
+  display: none;
+  text-align: center;
+}
+.text {
+  display: block;
+  color: white;
+  font-size: 16px;
+}
+.contentbox {
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: #03c7ac;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+  margin-top: 200px;
+  margin-bottom: 0;
+}
+
+.nav1 {
+  background-color: white;
+}
+
+.header {
+  font-size: 11px;
+}
+.nav-link {
+  font-size: 12px;
+  font-weight: 600;
+}
+* {
+  list-style: none;
+}
+.footer {
+  color: white;
+}
+.topnav{
+  margin-left: 6rem;
+}
+.footername2 {
+  color: white;
+  text-align: center;
+}
+.footer2 {
+  background-color: #292c31;
+}
+.c1 {
+  justify-content: center;
+  border-radius: 50%;
+}
+.carousel-text1 {
+  font-size: 15px;
+}
+.carousel-text2 {
+  font-size: 15px;
+  font-weight: 600;
+}
+.white {
+  background-color: whitesmoke;
+}
+.seperator {
+  height: 1px;
+  width: 40px;
+  color: black;
+}
+.seperator1 {
+  height: 3px;
+  width: 100px;
+  background-color: #03c7ac;
+  text-align: center;
+  /* font-weight: 100; */
+}
+.choose {
+  font-size: 13px;
+  text-align: center;
+}
+.meet1 {
+  font-weight: 800;
+  font-size: 22px;
+}
+.round {
+  border-radius: 50%;
+  background-color: #03c7ac;
+  width: 80px;
+  border: 1px solid #03c7ac;
+  height: 80px;
+}
+.user-icon {
+  color: white;
+}
+.mission {
+  font-size: 13px;
+  text-align: left;
+}
+.foot-icon:hover {
+  color: #03c7ac;
+}
+.link:hover {
+  color: #03c7ac;
+}
+.smallshades {
+  color: #03c7ac;
+}
+
+.aboutus {
+  font-size: 13px;
+}
+.us {
+  font-size: 13px;
+}
+.info {
+  font-size: 13px;
+}
+.button {
+  color: white;
+  background-color: #03c7ac;
+  font-size: 13px;
+}
+.box {
+  background-color: whitesmoke;
+}
+.big {
+  font-size: 14px;
+}
+.nav-item:hover {
+  color: grey;
+}
+.icons:hover {
+  color: #03c7ac;
+}
+.footername2 {
+  font-size: 13px;
+}
+.top-icons {
+  text-align: right;
+}
+.top1 {
+  text-align: left;
+}
+.top2 {
+  text-align: right;
+}
+.image1 {
+  width: 100%;
+}
+.info1 {
+  font-size: 13px;
+  margin-top: 3rem;
+}
+.second {
+  margin-top: 3rem;
+}
+
+.contactus {
+  padding-left: 3rem;
+}
+.home {
+  font-weight: 600;
+}
+.card-b {
+  flex: 1 1 auto;
+  padding: 0.2rem 0.4rem;
+  background-color: whitesmoke;
+  border: 1px solid whitesmoke;
+  margin-bottom: 5px;
+}
+.card {
+  border-radius: 0px;
+}
+.big {
+  font-weight: 600;
+  font-size: 14px;
+}
+.meet{
+  text-align: left;
+}
+.search{
+  padding-right: 3rem!important;
+}
+.home{
+  text-align: right;
+}
+@media (min-width: 320px) and (max-width: 768px) {
+  .top-icons {
+    text-align: center;
+  }
+  .header {
+    text-align: center;
+  }
+  .meet1 {
+    font-weight: 800;
+    font-size: 22px;
+  
+  }
+  .seperator1{
+  justify-content: center;
+  }
+  .info1 {
+    margin-top: 0px;
+  }
+  .top1 {
+    text-align: center;
+  }
+  .contactus {
+    margin-top: 1rem;
+  }
+  
+  .top2 {
+    text-align: center;
+  }
+  .second {
+    margin-top: 0px;
+  }
+  .image1 {
+    margin-bottom: 15px;
+  }
+  .sec-logo {
+    text-align: center;
+  }
+  .search{
+    display:none;
+  }
+  .loggo{
+    width: 200px;
+    text-align: left;
+  }
+  .topnav{
+    margin-left: 0rem;
+  }
+  .card-bodyy{
+    margin-bottom: 15px;
+  }
+  .meet{
+    text-align: center;
+  }
+  .home{
+    text-align: center;
+  }
+  .search1{
+    display:none;
+  }
+}
+@media (min-width: 768px) and (max-width: 1030px) {
+  .top-icons {
+    text-align: right;
+  }
+  .top1 {
+    text-align: left;
+  }
+  .top2 {
+    text-align: right;
+  }
+  .title{
+  margin-top: 20px;
+  }
+}
